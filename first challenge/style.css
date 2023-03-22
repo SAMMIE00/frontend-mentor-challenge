@@ -1,5 +1,38 @@
-*{
- background-color: white; 
+body{
+    min-height: 100vh;
+    display: flex;
+    background-color:whitesmoke;
+    justify-content: center;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: mintcream;
+    border-radius: 25px 25px;
+    width: 600px;
+}
+.score-card{
+    background-color:hsl(252, 100%, 67%);
+    height:450px;
+    width:400px;
+    border-radius: 25px 25px;
+    color:white;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+}
+.summary-card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius:25px 25px;
+    height: 450px;
+    width:400px;
+    padding:10px;
+    justify-content:center;
+    align-items:center;
+
 }
 
 
