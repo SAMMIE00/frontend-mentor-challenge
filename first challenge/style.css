@@ -4,6 +4,7 @@ body{
     background-color:whitesmoke;
     justify-content: center;
     align-items: center;
+    font-family: 'Hanken Grotesk', sans-serif;
 }
 .main-container{
     display: flex;
@@ -24,43 +25,83 @@ body{
     align-items:center;
     padding: 10px;
 }
+.results{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
+.circle{
+    background-color: hsla(256, 72%, 46%, 1);
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 0.9px;
+    padding:40px;
+
+}
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+}
+h5{
+    font-size: 20px;
+}
 .summary-card{
     background-color: hsl(0, 0%, 100%);
     border-radius:25px 25px;
     height: 450px;
     width:400px;
     padding:10px;
-    justify-content:center;
-    align-items:center;
-
+    line-height: 1px;
 }
 .Reaction-card{
     background-color: hsla(0, 100%, 67%, 0.1);
     color:hsl(0, 100%, 67%) ;
-    border-radius: 18px;
+    border-radius: 15px;
+    height: 45px;
+    margin: 15px;
 }
 .Memory-card {
     background-color: hsla(39, 100%, 56%, 0.1);
     color: hsl(39, 100%, 56%);
-    border-radius: 18px;
+    border-radius: 15px;
+    height: 45px;
+    margin: 15px;
 }
 .Verbal-card {
     background-color: hsla(166, 100%, 37%, 0.1);
     color: hsl(166, 100%, 37%);
-    border-radius: 18px;
+    border-radius: 15px;
+    height: 45px;
+    margin: 15px;
 }
 .visual-card {
     background-color: hsla(234, 85%, 45%, 0.1);
     color: hsl(234, 85%, 45%);
-    border-radius: 18px;
+    border-radius: 15px;
+    height: 45px;
+    margin: 15px;
+}
+svg{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 .button{
     background-color: black;
-    border-radius: 35px;
+    border-radius: 20px;
     color: white;
     text-align: center;
-    padding:0.1em;
-    font-size: 20px;
+    padding:1px;
+    font-size: 15px;
+    margin: 15px;
+}
+.sum{
+    display:inline-block;
+    color: black;
+    margin-left: 80px;
+    font-size: large;
 }
 
 
