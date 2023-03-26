@@ -29,14 +29,17 @@ body{
     text-align: center;
     padding: 10px;
     font-size: 18px;
+    line-height: 20px;
 }
 .circle{
     background-color: hsla(256, 72%, 46%, 1);
     border-radius: 50%;
     font-size: 18px;
     line-height: 0.9px;
-    padding:40px;
-
+    padding:30px;
+    height: 100px;
+    width: 100px;
+    margin: 45px;
 }
 h1{
     font-size: 50px;
