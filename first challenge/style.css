@@ -16,7 +16,7 @@ body{
     width: 600px;
 }
 .score-card{
-    background-color:hsl(252, 100%, 67%);
+    background-color:hsl(252, 100%, 67%) ;
     height:450px;
     width:400px;
     border-radius: 25px 25px;
@@ -32,7 +32,7 @@ body{
     line-height: 20px;
 }
 .circle{
-    background-color: hsla(256, 72%, 46%, 1);
+    background-color:hsla(256, 72%, 46%, 1);
     border-radius: 50%;
     font-size: 18px;
     line-height: 0.9px;
@@ -56,55 +56,66 @@ h5{
     height: 450px;
     width:400px;
     padding:10px;
-    line-height: 1px;
+    line-height: 0.5px;
 }
 .Reaction-card{
     background-color: hsla(0, 100%, 67%, 0.1);
     color:hsl(0, 100%, 67%) ;
     border-radius: 15px;
-    height: 45px;
+    height: 40px;
     margin: 15px;
+    padding: 5px;
 }
 .Memory-card {
     background-color: hsla(39, 100%, 56%, 0.1);
     color: hsl(39, 100%, 56%);
     border-radius: 15px;
-    height: 45px;
+    height: 40px;
     margin: 15px;
+    padding: 5px;
 }
 .Verbal-card {
     background-color: hsla(166, 100%, 37%, 0.1);
     color: hsl(166, 100%, 37%);
     border-radius: 15px;
-    height: 45px;
+    height: 40px;
     margin: 15px;
+    padding: 5px;
 }
 .visual-card {
     background-color: hsla(234, 85%, 45%, 0.1);
     color: hsl(234, 85%, 45%);
     border-radius: 15px;
-    height: 45px;
+    height: 40px;
     margin: 15px;
+    padding: 5px;
 }
 svg{
     display: inline-block;
     vertical-align: middle;
-    margin-left: 10px;
+    margin-left: 5px;
 }
 .button{
     background-color: black;
     border-radius: 20px;
     color: white;
     text-align: center;
-    padding:1px;
+    padding:5px;
     font-size: 15px;
     margin: 15px;
 }
 .sum{
-    display:inline-block;
     color: black;
-    margin-left: 80px;
     font-size: large;
+    float: right;
+    padding-right: 10px;
+}
+span{
+    font-size: large;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+
 }
 
 
@@ -132,6 +143,7 @@ svg{
 .attribution {
         font-size: 11px;
         text-align: center;
+        
     }
 
     .attribution a {
