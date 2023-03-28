@@ -16,7 +16,7 @@ body{
     width: 600px;
 }
 .score-card{
-    background-color:hsl(252, 100%, 67%) ;
+    background:linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
     height:450px;
     width:400px;
     border-radius: 25px 25px;
@@ -32,7 +32,7 @@ body{
     line-height: 20px;
 }
 .circle{
-    background-color:hsla(256, 72%, 46%, 1);
+    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
     border-radius: 50%;
     font-size: 18px;
     line-height: 0.9px;
